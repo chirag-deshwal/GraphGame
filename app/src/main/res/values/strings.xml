@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GraphGame</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="invitation_title">친구에게 GraphGame 초대</string>
+    <string name="invitation_message">GraphGame에 초대합니다!</string>
+    <string name="invitation_cta">앙기모띠</string>
+</resources>
