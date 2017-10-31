@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.choo827.graphgame.Trophy">
+
+    <ImageButton
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/pass"
+        android:background="#00ff0000"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/trophy"
+        app:lottie_fileName="trophy.json"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="랭킹으로"
+        android:textStyle="bold"
+        android:textSize="48sp"
+        android:textColor="#01579b"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:text="당신의 실력을 보여주세요!"
+        android:textSize="24sp"
+        android:textColor="#01579b"/>
+
+
+</LinearLayout>

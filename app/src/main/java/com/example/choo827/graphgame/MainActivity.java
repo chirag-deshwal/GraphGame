@@ -230,6 +230,14 @@ public class MainActivity extends AppCompatActivity
 			}
 
 			case R.id.ranking: {
+				SharedPreferences preference = getSharedPreferences("r", MODE_PRIVATE);
+				int Rankshow = preference.getInt("Rank", 0);
+
+				if (Rankshow != 1) {
+					Intent rank = new Intent(MainActivity.this, Trophy.class);
+					startActivity(rank);
+				}
+
 				wbMain.loadUrl("http://112.148.160.163:3000/rank");
 				setTitle("랭킹");
 				break;

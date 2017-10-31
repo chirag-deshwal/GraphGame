@@ -41,6 +41,10 @@
             android:name="com.example.choo827.graphgame.FirstView"
             android:theme="@style/FullTheme" >
         </activity>
+        <activity
+            android:name="com.example.choo827.graphgame.Trophy"
+            android:theme="@style/FullTheme" >
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"

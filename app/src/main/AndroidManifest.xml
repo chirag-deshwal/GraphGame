@@ -25,6 +25,10 @@
             android:name=".FirstView"
             android:theme="@style/FullTheme">
         </activity>
+        <activity
+            android:name=".Trophy"
+            android:theme="@style/FullTheme">
+        </activity>
     </application>
 
 </manifest>
