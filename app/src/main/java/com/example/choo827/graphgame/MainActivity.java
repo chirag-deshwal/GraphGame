@@ -28,6 +28,7 @@ import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.appinvite.AppInviteInvitation;
 
 public class MainActivity extends AppCompatActivity
@@ -38,7 +39,8 @@ public class MainActivity extends AppCompatActivity
 	private ProgressBar pgb;
 	private MenuItem item;
 	public static int REQUEST_INVITE=10;
-	private AdView mAdView;
+	private AdView bannerAd;
+	private InterstitialAd refreshAd;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -76,9 +78,13 @@ public class MainActivity extends AppCompatActivity
 
 		setUpUI();
 
-		mAdView = (AdView) findViewById(R.id.adView);
+		bannerAd = findViewById(R.id.bannerAd);
 		AdRequest adRequest = new AdRequest.Builder().build();
-		mAdView.loadAd(adRequest);
+		bannerAd.loadAd(adRequest);
+
+		refreshAd = new InterstitialAd(MainActivity.this);
+		refreshAd.setAdUnitId("ca-app-pub-9205620612549464/1802718919");
+//		refreshAd.loadAd(new AdRequest.Builder().build());
 	}
 
 	private class WebClient extends WebViewClient {
@@ -192,6 +198,14 @@ public class MainActivity extends AppCompatActivity
 		if (id == R.id.action_refresh) {
 			refresh();
 			wbMain.reload();
+
+			refreshAd.loadAd(new AdRequest.Builder().build());
+			if (refreshAd.isLoaded()) {
+				refreshAd.show();
+			}else {
+				Log.d("TAG", "The interstitial wasn't loaded yet.");
+			}
+
 		}
 
 		return super.onOptionsItemSelected(item);
@@ -232,7 +246,6 @@ public class MainActivity extends AppCompatActivity
 			case R.id.ranking: {
 				SharedPreferences preference = getSharedPreferences("r", MODE_PRIVATE);
 				int Rankshow = preference.getInt("Rank", 0);
-
 				if (Rankshow != 1) {
 					Intent rank = new Intent(MainActivity.this, Trophy.class);
 					startActivity(rank);

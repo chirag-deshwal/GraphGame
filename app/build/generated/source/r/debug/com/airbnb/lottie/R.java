@@ -619,10 +619,10 @@ public final class R {
         public static final int action_text = 0x7f080018;
         public static final int actions = 0x7f080019;
         public static final int activity_chooser_view_content = 0x7f08001a;
-        public static final int add = 0x7f08001c;
-        public static final int alertTitle = 0x7f08001f;
-        public static final int always = 0x7f080021;
-        public static final int async = 0x7f080022;
+        public static final int add = 0x7f08001b;
+        public static final int alertTitle = 0x7f08001e;
+        public static final int always = 0x7f080020;
+        public static final int async = 0x7f080021;
         public static final int beginning = 0x7f080026;
         public static final int blocking = 0x7f080027;
         public static final int bottom = 0x7f080028;
