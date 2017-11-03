@@ -11,13 +11,14 @@ MERGED from [com.airbnb.android:lottie:2.2.5] /Users/choo827/.gradle/caches/tran
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06e6313681387d5e892d2543c22dbd33/AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.firebase:firebase-invites:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-invites-11.4.2.aar/1924bba5b5c1dd3e0bbf853b4f19d7e4/AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:transition:26.1.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d96e95b6df68329378137c6aaddd2cf7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/fa4f21300c96d066130476f66f0f7b0c/AndroidManifest.xml:16:1-25:12
 MERGED from [com.google.firebase:firebase-ads:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-ads-11.4.2.aar/ddd1e2e757ae77475c58d26c02da42c3/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/0cfce4c0acb5dbd82fb90158d3c449f5/AndroidManifest.xml:16:1-35:12
 MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.2.aar/b90ed2af970a6d93b52b4fdb9cb3a488/AndroidManifest.xml:16:1-27:12
 MERGED from [com.google.android.gms:play-services-ads:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.2.aar/a5d52c8268f0cd0d497b6adbd77e5b6a/AndroidManifest.xml:16:1-18:12
 MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/79ef89ea6078f0f49f86de2676d8e1cc/AndroidManifest.xml:16:1-29:12
-MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/2c7cc731120c46e4152b6e291d23ed77/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-common:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.2.aar/c9010636914423ecf57dec7f1dfb64c3/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-base:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/5ca0114b03a0b2fd11e8dda5f2c5052a/AndroidManifest.xml:16:1-21:12
 MERGED from [com.google.android.gms:play-services-tasks:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.2.aar/eea1bd1d3dbe31234604c9d04c07f18e/AndroidManifest.xml:2:1-5:12
@@ -38,6 +39,7 @@ MERGED from [com.google.android.gms:play-services-appinvite-license:11.4.2] /Use
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/73852d02d758ad3c81999231032971d8/AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.4.2.aar/8e3e65a63a139e52af3721635e9acf65/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/21896fa0bca260edb9af0d3467635e7e/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-common-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.4.2.aar/16bd6cb7fabb910857759182c4ccc7d7/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.4.2.aar/0c0a5bc629864ad78eb8043e72a8104d/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-base-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.4.2.aar/b42d2e3a587ff2a1d2ae750e73e153f3/AndroidManifest.xml:2:1-6:12
@@ -45,7 +47,6 @@ MERGED from [com.google.firebase:firebase-dynamic-links-license:11.4.2] /Users/c
 MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.4.2.aar/49d399d51bf9a461c9fec5154fcb9c9a/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.4.2.aar/9b4ba318de6bd3dae536c186aeda2a4d/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.4.2.aar/bc838e186ac17a8f1ad106edc62f0e1a/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:2:1-6:12
 INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:2:1-34:12
 INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:2:1-34:12
 INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:2:1-34:12
@@ -65,6 +66,8 @@ INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/Androi
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/fa4f21300c96d066130476f66f0f7b0c/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/fa4f21300c96d066130476f66f0f7b0c/AndroidManifest.xml:18:5-66
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/0cfce4c0acb5dbd82fb90158d3c449f5/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/0cfce4c0acb5dbd82fb90158d3c449f5/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.2.aar/b90ed2af970a6d93b52b4fdb9cb3a488/AndroidManifest.xml:18:5-66
@@ -93,6 +96,8 @@ MERGED from [com.google.firebase:firebase-invites:11.4.2] /Users/choo827/.gradle
 MERGED from [com.google.firebase:firebase-invites:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-invites-11.4.2.aar/1924bba5b5c1dd3e0bbf853b4f19d7e4/AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:transition:26.1.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d96e95b6df68329378137c6aaddd2cf7/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d96e95b6df68329378137c6aaddd2cf7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/fa4f21300c96d066130476f66f0f7b0c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/fa4f21300c96d066130476f66f0f7b0c/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-ads:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-ads-11.4.2.aar/ddd1e2e757ae77475c58d26c02da42c3/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-ads:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-ads-11.4.2.aar/ddd1e2e757ae77475c58d26c02da42c3/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/0cfce4c0acb5dbd82fb90158d3c449f5/AndroidManifest.xml:24:5-34:19
@@ -101,10 +106,10 @@ MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] /Users/choo8
 MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.2.aar/b90ed2af970a6d93b52b4fdb9cb3a488/AndroidManifest.xml:19:5-26:19
 MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/79ef89ea6078f0f49f86de2676d8e1cc/AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/79ef89ea6078f0f49f86de2676d8e1cc/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:5:3-17
-MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:5:3-17
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/2c7cc731120c46e4152b6e291d23ed77/AndroidManifest.xml:28:5-49:19
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/2c7cc731120c46e4152b6e291d23ed77/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:5:3-17
 MERGED from [com.google.firebase:firebase-common:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.2.aar/c9010636914423ecf57dec7f1dfb64c3/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.firebase:firebase-common:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.2.aar/c9010636914423ecf57dec7f1dfb64c3/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-base:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/5ca0114b03a0b2fd11e8dda5f2c5052a/AndroidManifest.xml:18:5-20:19
@@ -145,6 +150,8 @@ MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] /Users/cho
 MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.4.2.aar/8e3e65a63a139e52af3721635e9acf65/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/21896fa0bca260edb9af0d3467635e7e/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/21896fa0bca260edb9af0d3467635e7e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-common-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.4.2.aar/16bd6cb7fabb910857759182c4ccc7d7/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-common-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.4.2.aar/16bd6cb7fabb910857759182c4ccc7d7/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.4.2.aar/0c0a5bc629864ad78eb8043e72a8104d/AndroidManifest.xml:5:5-20
@@ -159,8 +166,6 @@ MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] /User
 MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.4.2.aar/9b4ba318de6bd3dae536c186aeda2a4d/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.4.2.aar/bc838e186ac17a8f1ad106edc62f0e1a/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.4.2.aar/bc838e186ac17a8f1ad106edc62f0e1a/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:5:5-20
 	android:supportsRtl
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
@@ -221,6 +226,8 @@ MERGED from [com.google.firebase:firebase-invites:11.4.2] /Users/choo827/.gradle
 MERGED from [com.google.firebase:firebase-invites:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-invites-11.4.2.aar/1924bba5b5c1dd3e0bbf853b4f19d7e4/AndroidManifest.xml:4:5-43
 MERGED from [com.android.support:transition:26.1.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d96e95b6df68329378137c6aaddd2cf7/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d96e95b6df68329378137c6aaddd2cf7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/fa4f21300c96d066130476f66f0f7b0c/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/fa4f21300c96d066130476f66f0f7b0c/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-ads:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-ads-11.4.2.aar/ddd1e2e757ae77475c58d26c02da42c3/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-ads:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-ads-11.4.2.aar/ddd1e2e757ae77475c58d26c02da42c3/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/0cfce4c0acb5dbd82fb90158d3c449f5/AndroidManifest.xml:17:5-43
@@ -231,10 +238,10 @@ MERGED from [com.google.android.gms:play-services-ads:11.4.2] /Users/choo827/.gr
 MERGED from [com.google.android.gms:play-services-ads:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.2.aar/a5d52c8268f0cd0d497b6adbd77e5b6a/AndroidManifest.xml:17:5-94
 MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/79ef89ea6078f0f49f86de2676d8e1cc/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/79ef89ea6078f0f49f86de2676d8e1cc/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:3:3-41
-MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:3:3-41
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/2c7cc731120c46e4152b6e291d23ed77/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/2c7cc731120c46e4152b6e291d23ed77/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.2.aar/66c7e56689430b206cfb542f2d6b7a4e/AndroidManifest.xml:3:3-41
 MERGED from [com.google.firebase:firebase-common:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.2.aar/c9010636914423ecf57dec7f1dfb64c3/AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-common:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.2.aar/c9010636914423ecf57dec7f1dfb64c3/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-base:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/5ca0114b03a0b2fd11e8dda5f2c5052a/AndroidManifest.xml:17:5-43
@@ -275,6 +282,8 @@ MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] /Users/cho
 MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.4.2.aar/8e3e65a63a139e52af3721635e9acf65/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/21896fa0bca260edb9af0d3467635e7e/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/21896fa0bca260edb9af0d3467635e7e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-common-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.4.2.aar/16bd6cb7fabb910857759182c4ccc7d7/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-common-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.4.2.aar/16bd6cb7fabb910857759182c4ccc7d7/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.4.2.aar/0c0a5bc629864ad78eb8043e72a8104d/AndroidManifest.xml:4:5-43
@@ -289,8 +298,6 @@ MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] /User
 MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.4.2.aar/9b4ba318de6bd3dae536c186aeda2a4d/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.4.2.aar/bc838e186ac17a8f1ad106edc62f0e1a/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.4.2.aar/bc838e186ac17a8f1ad106edc62f0e1a/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/f3f6b7c72eb9519bd8a1929ab26db947/AndroidManifest.xml:4:5-43
 INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml
 INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary

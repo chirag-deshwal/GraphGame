@@ -3,13 +3,12 @@ package com.example.choo827.graphgame;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ImageButton;
 
 import com.airbnb.lottie.LottieAnimationView;
 
 public class Trophy extends AppCompatActivity {
 	private LottieAnimationView trophy;
-	private ImageButton pass;
+	private LottieAnimationView pass;
 
 
 	@Override
@@ -27,7 +26,8 @@ public class Trophy extends AppCompatActivity {
 		editor.putInt("Rank", infoRank);
 		editor.commit();
 
-		pass.setOnClickListener(v-> finish());
+		pass.playAnimation();
+		pass.setOnClickListener(v -> finish());
 
 	}
 }

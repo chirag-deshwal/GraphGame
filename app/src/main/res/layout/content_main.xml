@@ -26,7 +26,7 @@
         android:id="@+id/bannerAd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="#cff2ff"
         android:layout_gravity="center"
         app:adSize="BANNER"
         app:adUnitId="ca-app-pub-9205620612549464/9571110879">

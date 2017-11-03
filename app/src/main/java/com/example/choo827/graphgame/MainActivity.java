@@ -26,6 +26,7 @@ import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity
 
 		refreshAd = new InterstitialAd(MainActivity.this);
 		refreshAd.setAdUnitId("ca-app-pub-9205620612549464/1802718919");
-//		refreshAd.loadAd(new AdRequest.Builder().build());
+		refreshAd.loadAd(new AdRequest.Builder().build());
 	}
 
 	private class WebClient extends WebViewClient {
@@ -117,7 +118,7 @@ public class MainActivity extends AppCompatActivity
 		set.setBuiltInZoomControls(false);
 
 		// 이동한다.
-		wbMain.loadUrl("http://112.148.160.163:3000");
+		wbMain.loadUrl("https://graph-game-site.herokuapp.com/");
 
 		wbMain.setWebViewClient(new WebClient() {
 			@Override
@@ -200,6 +201,14 @@ public class MainActivity extends AppCompatActivity
 			wbMain.reload();
 
 			refreshAd.loadAd(new AdRequest.Builder().build());
+			refreshAd.setAdListener(new AdListener() {
+				@Override
+				public void onAdClosed() {
+					// Load the next interstitial.
+					refreshAd.loadAd(new AdRequest.Builder().build());
+				}
+
+			});
 			if (refreshAd.isLoaded()) {
 				refreshAd.show();
 			}else {
@@ -232,13 +241,15 @@ public class MainActivity extends AppCompatActivity
 		// Handle navigation view item clicks here.
 		switch (item.getItemId()) {
 			case R.id.home: {
-				wbMain.loadUrl("http://112.148.160.163:3000");
+				wbMain.loadUrl("https://graph-game-site.herokuapp.com/");
 				setTitle(R.string.app_name);
 				break;
 			}
 
 			case R.id.game: {
-				wbMain.loadUrl("http://112.148.160.163:3000/start");
+//				Trace myTrace = FirebasePerformance.getInstance().newTrace("test_trace");
+//				myTrace.start();
+				wbMain.loadUrl("https://graph-game-site.herokuapp.com/start");
 				setTitle("게임하기");
 				break;
 			}
@@ -251,19 +262,19 @@ public class MainActivity extends AppCompatActivity
 					startActivity(rank);
 				}
 
-				wbMain.loadUrl("http://112.148.160.163:3000/rank");
+				wbMain.loadUrl("https://graph-game-site.herokuapp.com/rank");
 				setTitle("랭킹");
 				break;
 			}
 
 			case R.id.donation: {
-				wbMain.loadUrl("http://112.148.160.163:3000/donation");
+				wbMain.loadUrl("https://graph-game-site.herokuapp.com/donation");
 				setTitle("기부하기");
 				break;
 			}
 
 			case R.id.more: {
-				wbMain.loadUrl("http://112.148.160.163:3000/more");
+				wbMain.loadUrl("https://graph-game-site.herokuapp.com/more");
 				setTitle("더보기");
 				break;
 			}
