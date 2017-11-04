@@ -1,6 +1,5 @@
 package com.example.choo827.graphgame;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -13,17 +12,13 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdListener;
@@ -38,7 +33,6 @@ public class MainActivity extends AppCompatActivity
 	private WebView wbMain;
 	private ActionBarDrawerToggle toggle;
 	private ProgressBar pgb;
-	private MenuItem item;
 	public static int REQUEST_INVITE=10;
 	private AdView bannerAd;
 	private InterstitialAd refreshAd;
@@ -150,11 +144,6 @@ public class MainActivity extends AppCompatActivity
 					pgb.setVisibility(ProgressBar.VISIBLE);
 				} else if (progress == 100) {
 					pgb.setVisibility(ProgressBar.GONE);
-					try {
-						completeRefresh();
-					} catch (NullPointerException e) {
-						e.getStackTrace();
-					}
 				}
 				pgb.setProgress(progress);
 			}
@@ -187,7 +176,6 @@ public class MainActivity extends AppCompatActivity
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.main, menu);
-		item = (MenuItem) menu.findItem(R.id.action_refresh);
 		return true;
 	}
 
@@ -197,7 +185,6 @@ public class MainActivity extends AppCompatActivity
 			return true;
 		int id = item.getItemId();
 		if (id == R.id.action_refresh) {
-			refresh();
 			wbMain.reload();
 
 			refreshAd.loadAd(new AdRequest.Builder().build());
@@ -218,21 +205,6 @@ public class MainActivity extends AppCompatActivity
 		}
 
 		return super.onOptionsItemSelected(item);
-	}
-
-	public void refresh() {
-		LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		ImageView iv = (ImageView) inflater.inflate(R.layout.iv_refresh, null);
-
-		Animation rotation = AnimationUtils.loadAnimation(this, R.anim.rotate);
-		rotation.setRepeatCount(Animation.INFINITE);
-		iv.startAnimation(rotation);
-		item.setActionView(iv);
-	}
-
-	public void completeRefresh() {
-		item.getActionView().clearAnimation();
-		item.setActionView(null);
 	}
 
 	@SuppressWarnings("StatementWithEmptyBody")

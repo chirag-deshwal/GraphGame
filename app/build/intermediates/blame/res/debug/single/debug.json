@@ -404,10 +404,6 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06e6313681387d5e892d2543c22dbd33/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/anim_rotate.xml.flat",
-        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/res/anim/rotate.xml"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-mdpi_pass.png.flat",
         "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-mdpi/pass.png"
     },

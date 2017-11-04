@@ -1,8 +1,10 @@
 package com.example.choo827.graphgame;
 
+import android.animation.Animator;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 import com.airbnb.lottie.LottieAnimationView;
 
@@ -26,8 +28,32 @@ public class Trophy extends AppCompatActivity {
 		editor.putInt("Rank", infoRank);
 		editor.commit();
 
-		pass.playAnimation();
-		pass.setOnClickListener(v -> finish());
+//		pass.playAnimation();
+//		pass.setOnClickListener(v -> finish());
+
+		trophy.addAnimatorListener(new Animator.AnimatorListener() {
+			@Override
+			public void onAnimationStart(Animator animation) {
+				pass.setVisibility(View.GONE);
+			}
+
+			@Override
+			public void onAnimationEnd(Animator animation) {
+				pass.setVisibility(View.VISIBLE);
+				pass.playAnimation();
+				pass.setOnClickListener(v -> finish());
+			}
+
+			@Override
+			public void onAnimationCancel(Animator animation) {
+
+			}
+
+			@Override
+			public void onAnimationRepeat(Animator animation) {
+
+			}
+		});
 
 	}
 }
