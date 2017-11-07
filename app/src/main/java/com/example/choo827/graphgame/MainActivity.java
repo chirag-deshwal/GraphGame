@@ -3,10 +3,10 @@ package com.example.choo827.graphgame;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -20,6 +20,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity
 	private WebView wbMain;
 	private ActionBarDrawerToggle toggle;
 	private ProgressBar pgb;
-	public static int REQUEST_INVITE=10;
+	public static int REQUEST_INVITE = 10;
 	private AdView bannerAd;
 	private InterstitialAd refreshAd;
 
@@ -79,7 +80,7 @@ public class MainActivity extends AppCompatActivity
 
 		refreshAd = new InterstitialAd(MainActivity.this);
 		refreshAd.setAdUnitId("ca-app-pub-9205620612549464/1802718919");
-		refreshAd.loadAd(new AdRequest.Builder().build());
+//		refreshAd.loadAd(new AdRequest.Builder().build());
 	}
 
 	private class WebClient extends WebViewClient {
@@ -198,7 +199,7 @@ public class MainActivity extends AppCompatActivity
 			});
 			if (refreshAd.isLoaded()) {
 				refreshAd.show();
-			}else {
+			} else {
 				Log.d("TAG", "The interstitial wasn't loaded yet.");
 			}
 
@@ -223,6 +224,18 @@ public class MainActivity extends AppCompatActivity
 //				myTrace.start();
 				wbMain.loadUrl("https://graph-game-site.herokuapp.com/start");
 				setTitle("게임하기");
+				refreshAd.loadAd(new AdRequest.Builder().build());
+				if (refreshAd.isLoaded()) {
+					refreshAd.show();
+				}
+				refreshAd.setAdListener(new AdListener() {
+					@Override
+					public void onAdClosed() {
+						// Load the next interstitial.
+						refreshAd.loadAd(new AdRequest.Builder().build());
+					}
+
+				});
 				break;
 			}
 
@@ -252,7 +265,11 @@ public class MainActivity extends AppCompatActivity
 			}
 
 			case R.id.nav_share: {
-				onInviteClicked();
+//				onInviteClicked();
+				Intent sendIntent = new Intent(Intent.ACTION_SEND);
+				sendIntent.putExtra(Intent.EXTRA_TEXT, "This is my text to send.");
+				sendIntent.setType("text/plain");
+				startActivity(Intent.createChooser(sendIntent, "good"));
 				break;
 			}
 
@@ -276,6 +293,7 @@ public class MainActivity extends AppCompatActivity
 	private void onInviteClicked() {
 		Intent intent = new AppInviteInvitation.IntentBuilder(getString(R.string.invitation_title))
 				.setMessage(getString(R.string.invitation_message))
+				.setCustomImage(Uri.parse(getString(R.string.invitation_image)))
 				.setCallToActionText(getString(R.string.invitation_cta))
 				.build();
 		startActivityForResult(intent, REQUEST_INVITE);
@@ -292,9 +310,7 @@ public class MainActivity extends AppCompatActivity
 					Log.d("invite", "onActivityResult: sent invitation " + id);
 				}
 			} else {
-				// Sending failed or it was canceled, show failure message to the user
-				// ...
-				Snackbar.make(findViewById(android.R.id.content), "초대취소", Snackbar.LENGTH_LONG).show();
+				Toast.makeText(MainActivity.this, "초대취소", Toast.LENGTH_SHORT).show();
 			}
 		}
 	}

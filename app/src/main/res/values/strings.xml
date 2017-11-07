@@ -8,5 +8,7 @@
 
     <string name="invitation_title">친구에게 GraphGame 초대</string>
     <string name="invitation_message">GraphGame에 초대합니다!</string>
-    <string name="invitation_cta">앙기모띠</string>
+    <string name="invitation_image">https://developers.google.com/identity/images/g-logo.png</string>
+    <string name="invitation_cta">Install!</string>
+    <string name="chooser_title">share</string>
 </resources>

@@ -173,9 +173,9 @@ MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] /Users/ch
 	android:hardwareAccelerated
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:9:9-43
 	android:roundIcon
-		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:12:9-53
+		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:10:9-42
+		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
