@@ -3,7 +3,6 @@ package com.example.choo827.graphgame;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -20,13 +19,11 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.appinvite.AppInviteInvitation;
 
 public class MainActivity extends AppCompatActivity
 		implements NavigationView.OnNavigationItemSelectedListener {
@@ -34,7 +31,6 @@ public class MainActivity extends AppCompatActivity
 	private WebView wbMain;
 	private ActionBarDrawerToggle toggle;
 	private ProgressBar pgb;
-	public static int REQUEST_INVITE = 10;
 	private AdView bannerAd;
 	private InterstitialAd refreshAd;
 
@@ -118,23 +114,8 @@ public class MainActivity extends AppCompatActivity
 		wbMain.setWebViewClient(new WebClient() {
 			@Override
 			public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
-				super.onReceivedError(view, errorCode, description, failingUrl);
-				switch (errorCode) {
-//					case ERROR_CONNECT:{
-//						Toast.makeText(MainActivity.this,"connet error",Toast.LENGTH_SHORT).show();
-//						break;
-//					}
-//
-//					case ERROR_TIMEOUT:{
-//						Toast.makeText(MainActivity.this,"time out",Toast.LENGTH_SHORT).show();
-//						break;
-//					}
-
-					case ERROR_HOST_LOOKUP: {
-						wbMain.loadUrl("file:///android_asset/errorPage/ERROR.html");
-						break;
-					}
-				}
+//				super.onReceivedError(view, errorCode, description, failingUrl);
+				wbMain.loadUrl("file:///android_asset/errorPage/ERROR.html");
 			}
 		});
 
@@ -263,15 +244,6 @@ public class MainActivity extends AppCompatActivity
 				break;
 			}
 
-			case R.id.nav_share: {
-//				onInviteClicked();
-				Intent sendIntent = new Intent(Intent.ACTION_SEND);
-				sendIntent.putExtra(Intent.EXTRA_TEXT, "This is my text to send.");
-				sendIntent.setType("text/plain");
-				startActivity(Intent.createChooser(sendIntent, "good"));
-				break;
-			}
-
 			case R.id.nav_send: {
 				Intent it = new Intent(Intent.ACTION_SEND);
 				it.setType("plain/text");
@@ -287,30 +259,5 @@ public class MainActivity extends AppCompatActivity
 		DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 		drawer.closeDrawer(GravityCompat.START);
 		return true;
-	}
-
-	private void onInviteClicked() {
-		Intent intent = new AppInviteInvitation.IntentBuilder(getString(R.string.invitation_title))
-				.setMessage(getString(R.string.invitation_message))
-				.setCustomImage(Uri.parse(getString(R.string.invitation_image)))
-				.setCallToActionText(getString(R.string.invitation_cta))
-				.build();
-		startActivityForResult(intent, REQUEST_INVITE);
-	}
-
-	@Override
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		super.onActivityResult(requestCode, resultCode, data);
-		if (requestCode == REQUEST_INVITE) {
-			if (resultCode == RESULT_OK) {
-				// Get the invitation IDs of all sent messages
-				String[] ids = AppInviteInvitation.getInvitationIds(resultCode, data);
-				for (String id : ids) {
-					Log.d("invite", "onActivityResult: sent invitation " + id);
-				}
-			} else {
-				Toast.makeText(MainActivity.this, "초대취소", Toast.LENGTH_SHORT).show();
-			}
-		}
 	}
 }
