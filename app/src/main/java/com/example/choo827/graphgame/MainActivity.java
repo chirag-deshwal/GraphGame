@@ -131,8 +131,7 @@ public class MainActivity extends AppCompatActivity
 //					}
 
 					case ERROR_HOST_LOOKUP: {
-//						Toast.makeText(MainActivity.this,"ㅈㅅ",Toast.LENGTH_SHORT).show();
-//						wbMain.loadUrl("");
+						wbMain.loadUrl("file:///android_asset/errorPage/ERROR.html");
 						break;
 					}
 				}
