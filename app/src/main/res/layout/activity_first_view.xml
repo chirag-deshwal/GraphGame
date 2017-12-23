@@ -2,7 +2,21 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.vivchar.viewpagerindicator.ViewPagerIndicator
+        android:id="@+id/indicator"
+        app:delimiterSize="8dp"
+        app:itemScale="2"
+        app:itemSelectedTint="@color/colorAccent"
+        app:itemSize="8dp"
+        app:itemTint="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="20dp"
+        />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp"

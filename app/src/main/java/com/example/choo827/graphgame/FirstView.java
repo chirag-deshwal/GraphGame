@@ -10,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
 
+import com.github.vivchar.viewpagerindicator.ViewPagerIndicator;
+
 import shot.Atm;
 import shot.Daynight;
 import shot.Luck;
@@ -24,6 +26,7 @@ import static shot.Send.send;
 public class FirstView extends AppCompatActivity {
 	private ViewPager vp = null;
 	private FloatingActionButton fab = null;
+	ViewPagerIndicator viewPagerIndicator;
 
 
 	@Override
@@ -40,6 +43,9 @@ public class FirstView extends AppCompatActivity {
 				return true;
 			}
 		});
+
+		viewPagerIndicator= findViewById(R.id.indicator);
+		viewPagerIndicator.setupWithViewPager(vp);
 
 		fab = (FloatingActionButton) findViewById(R.id.fab);
 		fab.setOnClickListener(new View.OnClickListener() {

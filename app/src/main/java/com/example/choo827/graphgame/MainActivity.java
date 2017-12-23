@@ -10,6 +10,7 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,11 +20,13 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 public class MainActivity extends AppCompatActivity
 		implements NavigationView.OnNavigationItemSelectedListener {
@@ -33,11 +36,14 @@ public class MainActivity extends AppCompatActivity
 	private ProgressBar pgb;
 	private AdView bannerAd;
 	private InterstitialAd refreshAd;
+	private DrawerLayout drawer;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		FirebaseMessaging.getInstance().subscribeToTopic("update");
 
 		SharedPreferences preference = getSharedPreferences("a", MODE_PRIVATE);
 		int firstviewshow = preference.getInt("First", 0);
@@ -47,7 +53,7 @@ public class MainActivity extends AppCompatActivity
 			startActivity(intent);
 		}
 
-		DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+		drawer = findViewById(R.id.drawer_layout);
 		toggle = new ActionBarDrawerToggle(
 				this, drawer, R.string.navigation_drawer_open, R.string.navigation_drawer_close) {
 			@Override
@@ -76,7 +82,7 @@ public class MainActivity extends AppCompatActivity
 
 		refreshAd = new InterstitialAd(MainActivity.this);
 		refreshAd.setAdUnitId("ca-app-pub-9205620612549464/1802718919");
-//		refreshAd.loadAd(new AdRequest.Builder().build());
+		refreshAd.loadAd(new AdRequest.Builder().build());
 	}
 
 	private class WebClient extends WebViewClient {
@@ -146,7 +152,6 @@ public class MainActivity extends AppCompatActivity
 
 	@Override
 	public void onBackPressed() {
-		DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 		if (drawer.isDrawerOpen(GravityCompat.START)) {
 			drawer.closeDrawer(GravityCompat.START);
 		} else {
@@ -194,28 +199,24 @@ public class MainActivity extends AppCompatActivity
 		// Handle navigation view item clicks here.
 		switch (item.getItemId()) {
 			case R.id.home: {
-				wbMain.loadUrl("https://graph-game-site.herokuapp.com/");
 				setTitle(R.string.app_name);
+				if(wbMain.getUrl().equals("https://graph-game-site.herokuapp.com/")){
+					drawer.closeDrawer(GravityCompat.START);
+				}else{
+					wbMain.loadUrl("https://graph-game-site.herokuapp.com/");
+				}
 				break;
 			}
 
 			case R.id.game: {
 //				Trace myTrace = FirebasePerformance.getInstance().newTrace("test_trace");
 //				myTrace.start();
-				wbMain.loadUrl("https://graph-game-site.herokuapp.com/start");
 				setTitle("게임하기");
-				refreshAd.loadAd(new AdRequest.Builder().build());
-				if (refreshAd.isLoaded()) {
-					refreshAd.show();
+				if(wbMain.getUrl().equals("https://graph-game-site.herokuapp.com/start")){
+					drawer.closeDrawer(GravityCompat.START);
+				}else{
+					wbMain.loadUrl("https://graph-game-site.herokuapp.com/start");
 				}
-				refreshAd.setAdListener(new AdListener() {
-					@Override
-					public void onAdClosed() {
-						// Load the next interstitial.
-						refreshAd.loadAd(new AdRequest.Builder().build());
-					}
-
-				});
 				break;
 			}
 
@@ -227,20 +228,32 @@ public class MainActivity extends AppCompatActivity
 					startActivity(rank);
 				}
 
-				wbMain.loadUrl("https://graph-game-site.herokuapp.com/rank");
 				setTitle("랭킹");
+				if(wbMain.getUrl().equals("https://graph-game-site.herokuapp.com/rank")){
+					drawer.closeDrawer(GravityCompat.START);
+				}else{
+					wbMain.loadUrl("https://graph-game-site.herokuapp.com/rank");
+				}
 				break;
 			}
 
 			case R.id.donation: {
-				wbMain.loadUrl("https://graph-game-site.herokuapp.com/donation");
 				setTitle("기부하기");
+				if(wbMain.getUrl().equals("https://graph-game-site.herokuapp.com/donation")){
+					drawer.closeDrawer(GravityCompat.START);
+				}else{
+					wbMain.loadUrl("https://graph-game-site.herokuapp.com/donation");
+				}
 				break;
 			}
 
 			case R.id.more: {
-				wbMain.loadUrl("https://graph-game-site.herokuapp.com/more");
 				setTitle("더보기");
+				if(wbMain.getUrl().equals("https://graph-game-site.herokuapp.com/more")){
+					drawer.closeDrawer(GravityCompat.START);
+				}else{
+					wbMain.loadUrl("https://graph-game-site.herokuapp.com/more");
+				}
 				break;
 			}
 
@@ -259,5 +272,29 @@ public class MainActivity extends AppCompatActivity
 		DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 		drawer.closeDrawer(GravityCompat.START);
 		return true;
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+
+		checkNotiMessage();
+	}
+
+	@Override
+	protected void onNewIntent(Intent intent) {
+		super.onNewIntent(intent);
+
+		setIntent(intent);
+	}
+
+	private void checkNotiMessage() {
+		Intent intent = getIntent();
+		String message = intent.getStringExtra(NotiService.NOTI_MESSAGE);
+		if (!TextUtils.isEmpty(message)) {
+			intent.putExtra(NotiService.NOTI_MESSAGE, "");
+			Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+
+		}
 	}
 }

@@ -23,12 +23,26 @@
         </activity>
         <activity
             android:name=".FirstView"
-            android:theme="@style/FullTheme">
-        </activity>
+            android:theme="@style/FullTheme"/>
         <activity
             android:name=".Trophy"
-            android:theme="@style/FullTheme">
-        </activity>
+            android:theme="@style/FullTheme"/>
+
+        <service
+            android:name=".NotiService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/game"/>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary"/>
+
     </application>
 
 </manifest>

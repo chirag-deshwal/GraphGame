@@ -4,7 +4,7 @@
             "outputFile": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06e6313681387d5e892d2543c22dbd33/res/values-v24/values-v24.xml",
+                    "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/128c82ba0f15e7338366000b3ec7da18/res/values-v24/values-v24.xml",
+                    "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/93034abc9ef59ecc44070eb65a8dbfbb/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

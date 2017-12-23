@@ -12,7 +12,7 @@
 
         <item
             android:id="@+id/game"
-            android:icon="@drawable/browser"
+            android:icon="@drawable/game"
             android:title="게임하기"/>
         <item
             android:id="@+id/ranking"

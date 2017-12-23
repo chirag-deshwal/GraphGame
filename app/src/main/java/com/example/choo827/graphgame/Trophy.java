@@ -41,7 +41,12 @@ public class Trophy extends AppCompatActivity {
 			public void onAnimationEnd(Animator animation) {
 				pass.setVisibility(View.VISIBLE);
 				pass.playAnimation();
-				pass.setOnClickListener(v -> finish());
+				pass.setOnClickListener(new View.OnClickListener() {
+					@Override
+					public void onClick(View v) {
+						finish();
+					}
+				});
 			}
 
 			@Override
