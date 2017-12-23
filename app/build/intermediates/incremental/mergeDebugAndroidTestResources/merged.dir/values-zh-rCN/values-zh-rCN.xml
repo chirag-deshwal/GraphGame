@@ -20,7 +20,6 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>无法访问 Google Play 服务，请重试。"</string>
-    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"其他"</string>
     <string msgid="368094699078615544" name="s1">"保存图片"</string>
     <string msgid="4550830452390689489" name="s2">"允许广告将图片存储在图库中吗？"</string>
     <string msgid="2435407834265420668" name="s3">"接受"</string>

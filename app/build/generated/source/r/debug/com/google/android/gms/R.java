@@ -14,28 +14,27 @@ public final class R {
     }
     public static final class id {
         public static final int auto = 0x7f080021;
-        public static final int center = 0x7f080029;
-        public static final int crash_reporting_present = 0x7f080035;
-        public static final int none = 0x7f080072;
-        public static final int normal = 0x7f080073;
-        public static final int radio = 0x7f080081;
-        public static final int text = 0x7f0800b1;
-        public static final int text2 = 0x7f0800b2;
-        public static final int wrap_content = 0x7f0800cf;
+        public static final int center = 0x7f080028;
+        public static final int crash_reporting_present = 0x7f080034;
+        public static final int none = 0x7f080071;
+        public static final int normal = 0x7f080072;
+        public static final int radio = 0x7f080080;
+        public static final int text = 0x7f0800b0;
+        public static final int text2 = 0x7f0800b1;
+        public static final int wrap_content = 0x7f0800ce;
     }
     public static final class integer {
         public static final int google_play_services_version = 0x7f090007;
     }
     public static final class string {
         public static final int common_google_play_services_unknown_issue = 0x7f0d0024;
-        public static final int fcm_fallback_notification_channel_label = 0x7f0d0026;
-        public static final int s1 = 0x7f0d0035;
-        public static final int s2 = 0x7f0d0036;
-        public static final int s3 = 0x7f0d0037;
-        public static final int s4 = 0x7f0d0038;
-        public static final int s5 = 0x7f0d0039;
-        public static final int s6 = 0x7f0d003a;
-        public static final int s7 = 0x7f0d003b;
+        public static final int s1 = 0x7f0d0034;
+        public static final int s2 = 0x7f0d0035;
+        public static final int s3 = 0x7f0d0036;
+        public static final int s4 = 0x7f0d0037;
+        public static final int s5 = 0x7f0d0038;
+        public static final int s6 = 0x7f0d0039;
+        public static final int s7 = 0x7f0d003a;
     }
     public static final class style {
         public static final int Theme_IAPTheme = 0x7f0e0132;

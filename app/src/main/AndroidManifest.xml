@@ -7,9 +7,9 @@
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_main"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_main_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -27,21 +27,6 @@
         <activity
             android:name=".Trophy"
             android:theme="@style/FullTheme"/>
-
-        <service
-            android:name=".NotiService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
-            </intent-filter>
-        </service>
-
-        <meta-data
-            android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/game"/>
-
-        <meta-data
-            android:name="com.google.firebase.messaging.default_notification_color"
-            android:resource="@color/colorPrimary"/>
 
     </application>
 

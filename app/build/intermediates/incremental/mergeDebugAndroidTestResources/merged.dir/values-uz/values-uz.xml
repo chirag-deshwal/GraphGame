@@ -20,7 +20,6 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sga ruxsat berish"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Yig‘ish"</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ilovasini Google Play xizmatlariga ulab bo‘lmadi. Qaytadan urinib ko‘ring."</string>
-    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Har xil"</string>
     <string msgid="368094699078615544" name="s1">"Rasmni saqlash"</string>
     <string msgid="4550830452390689489" name="s2">"Reklamaga rasmni gallereyaga saqlashga ruxsat berilsinmi?"</string>
     <string msgid="2435407834265420668" name="s3">"Qabul qilish"</string>

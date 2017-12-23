@@ -4,23 +4,6 @@
             "outputFile": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/d795ae96d3529be756d63614f982e0a4/res/values-zh-rTW/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "96",
-                        "endOffsets": "343"
-                    },
-                    "to": {
-                        "startLines": "22",
-                        "startColumns": "4",
-                        "startOffsets": "2088",
-                        "endColumns": "100",
-                        "endOffsets": "2184"
-                    }
-                },
-                {
                     "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/3971803bd400e8b1c59ceae4a7946896/res/values-zh-rTW/values.xml",
                     "from": {
                         "startLines": "4",
@@ -47,11 +30,11 @@
                         "endOffsets": "301,376,436,496,560,631,693"
                     },
                     "to": {
-                        "startLines": "23,24,25,26,27,28,29",
+                        "startLines": "22,23,24,25,26,27,28",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "2189,2254,2333,2397,2461,2529,2604",
+                        "startOffsets": "2088,2153,2232,2296,2360,2428,2503",
                         "endColumns": "64,78,63,63,67,74,65",
-                        "endOffsets": "2249,2328,2392,2456,2524,2599,2665"
+                        "endOffsets": "2148,2227,2291,2355,2423,2498,2564"
                     }
                 },
                 {
@@ -64,11 +47,11 @@
                         "endOffsets": "145,252,375,468,568,650,747,855,931,1007,1085,1181,1277,1372,1469,1564,1664,1777,1871,1949,2050"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,30,31",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,29,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,307,430,523,623,705,802,910,986,1062,1140,1236,1332,1427,1524,1619,1719,1832,2670,2748",
+                        "startOffsets": "105,200,307,430,523,623,705,802,910,986,1062,1140,1236,1332,1427,1524,1619,1719,1832,2569,2647",
                         "endColumns": "94,106,122,92,99,81,96,107,75,75,77,95,95,94,96,94,99,112,93,77,100",
-                        "endOffsets": "195,302,425,518,618,700,797,905,981,1057,1135,1231,1327,1422,1519,1614,1714,1827,1921,2743,2844"
+                        "endOffsets": "195,302,425,518,618,700,797,905,981,1057,1135,1231,1327,1422,1519,1614,1714,1827,1921,2642,2743"
                     }
                 }
             ]
