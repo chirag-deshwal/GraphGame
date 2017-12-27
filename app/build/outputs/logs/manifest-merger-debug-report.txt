@@ -46,7 +46,7 @@ INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/Androi
 INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:2:1-33:12
 INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:3:11-50
+		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:3:11-42
 		INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -161,7 +161,7 @@ MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/c
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:14:9-40
-activity#com.example.choo827.graphgame.MainActivity
+activity#com.choo827.graphgame.MainActivity
 ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:label
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:17:13-45
@@ -177,13 +177,13 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:21:17-76
 	android:name
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:21:27-74
-activity#com.example.choo827.graphgame.FirstView
+activity#com.choo827.graphgame.FirstView
 ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:24:9-26:47
 	android:theme
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:26:13-45
 	android:name
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:25:13-38
-activity#com.example.choo827.graphgame.Trophy
+activity#com.choo827.graphgame.Trophy
 ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:27:9-29:47
 	android:theme
 		ADDED from /Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/AndroidManifest.xml:29:13-45
@@ -383,7 +383,7 @@ ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/cach
 		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:25:72-107
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:25:17-71
-permission#com.example.choo827.graphgame.permission.C2D_MESSAGE
+permission#com.choo827.graphgame.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:25:5-109
 	android:protectionLevel
 		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:25:72-107
@@ -393,7 +393,7 @@ uses-permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:27:5-78
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:27:22-76
-uses-permission#com.example.choo827.graphgame.permission.C2D_MESSAGE
+uses-permission#com.choo827.graphgame.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:27:5-78
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:27:22-76
@@ -407,7 +407,7 @@ ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/cach
 		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:31:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:32:13-35:29
-intent-filter#com.example.choo827.graphgame+com.google.android.c2dm.intent.RECEIVE
+intent-filter#com.choo827.graphgame+com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:32:13-35:29
 action#com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:33:17-80
@@ -417,7 +417,7 @@ category#${applicationId}
 ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:34:17-60
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:34:27-58
-category#com.example.choo827.graphgame
+category#com.choo827.graphgame
 ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:34:17-60
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.6.0] /Users/choo827/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/605d3f3763b54b38f5187ae7074e42d7/AndroidManifest.xml:34:27-58

@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1057127631367:android:57d260485b11bff7",
+        "mobilesdk_app_id": "1:1057127631367:android:a3d5def01254b84d",
         "android_client_info": {
-          "package_name": "com.example.choo827.graphgame"
+          "package_name": "com.choo827.graphgame"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1057127631367-iqb4lp40fk0nd1fe00g7g55t162nm4et.apps.googleusercontent.com",
+          "client_id": "1057127631367-odqrmlbtkpnu02tfu35a2lrp829tnrjn.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.choo827.graphgame",
+            "package_name": "com.choo827.graphgame",
             "certificate_hash": "6a642adb216665d305d3b5b465c316e0b55b27ca"
           }
         },

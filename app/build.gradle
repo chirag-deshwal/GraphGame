@@ -5,10 +5,10 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "com.example.choo827.graphgame"
+        applicationId "com.choo827.graphgame"
         minSdkVersion 19
         targetSdkVersion 26
-        versionCode 20171223
+        versionCode 20171226
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

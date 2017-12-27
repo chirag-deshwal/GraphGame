@@ -100,12 +100,12 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat",
@@ -116,28 +116,28 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/anim/tooltip_exit.xml"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_imagerefresh.xml.flat",
-        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-anydpi-v21/imagerefresh.xml"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_imagerefresh.xml.flat",
+        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-anydpi-v21/imagerefresh.xml"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/animator-v21_design_appbar_state_list_animator.xml.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/cb26f095b9c06c4267b5acded5c74a23/res/animator-v21/design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-mdpi_donation.png.flat",
-        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-mdpi/donation.png"
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-mdpi_donation.png.flat",
+        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-mdpi/donation.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -156,6 +156,10 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_main_round.png.flat",
+        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/res/mipmap-hdpi/ic_main_round.png"
+    },
+    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
@@ -168,20 +172,16 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f8707d3abd8f95e682fd10655ed693f/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_main_round.png.flat",
-        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/res/mipmap-hdpi/ic_main_round.png"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-ldpi_ranking.png.flat",
         "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-ldpi/ranking.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable/abc_ic_search_api_material.xml"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -192,20 +192,20 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxhdpi_browser.png.flat",
-        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-xxhdpi/browser.png"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxhdpi_pass.png.flat",
         "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-xxhdpi/pass.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/93034abc9ef59ecc44070eb65a8dbfbb/res/layout/notification_media_action.xml"
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxhdpi_browser.png.flat",
+        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-xxhdpi/browser.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xhdpi_more.png.flat",
         "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-xhdpi/more.png"
+    },
+    {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/93034abc9ef59ecc44070eb65a8dbfbb/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -236,12 +236,12 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f8707d3abd8f95e682fd10655ed693f/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-mdpi_ranking.png.flat",
         "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-mdpi/ranking.png"
+    },
+    {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0f8707d3abd8f95e682fd10655ed693f/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -440,12 +440,12 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
@@ -488,16 +488,16 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/cb26f095b9c06c4267b5acded5c74a23/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_next.png.flat",
         "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-xxxhdpi/next.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_main.png.flat",
@@ -976,12 +976,12 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/color-v23/abc_color_highlight_material.xml"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_main_round.xml.flat",
         "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/res/mipmap-anydpi-v26/ic_main_round.xml"
+    },
+    {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/color-v23/abc_color_highlight_material.xml"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -1724,16 +1724,16 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_main.png.flat",
+        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/res/mipmap-xxhdpi/ic_main.png"
+    },
+    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xhdpi_home.png.flat",
         "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-xhdpi/home.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/color-v23_abc_tint_default.xml.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/color-v23/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_main.png.flat",
-        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/src/main/res/mipmap-xxhdpi/ic_main.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1860,16 +1860,16 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -2128,12 +2128,12 @@
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable_white_circle.xml.flat",
         "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-1.1.0.aar/f737a7846e34cc2c2e2dc223212988f2/res/drawable/white_circle.xml"
+    },
+    {
+        "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/Users/choo827/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/eeb93a37c80cc9841e62549942b90068/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/choo827/AndroidStudioProjects/GraphGame/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_foreground.png.flat",

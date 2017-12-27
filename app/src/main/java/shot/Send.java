@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.example.choo827.graphgame.R;
+import com.choo827.graphgame.R;
 
 public class Send extends Fragment {
 	public static LottieAnimationView send;

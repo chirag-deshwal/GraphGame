@@ -1,1 +1,1 @@
-[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":20171223},"path":"AndroidManifest.xml","properties":{"packageId":"com.example.choo827.graphgame","split":"","minSdkVersion":"19"}}]
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":20171226},"path":"AndroidManifest.xml","properties":{"packageId":"com.choo827.graphgame","split":"","minSdkVersion":"19"}}]
